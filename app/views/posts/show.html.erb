@@ -22,5 +22,5 @@
   <%= f.fields_for :user, @comment.build_user do |user_attributes| %>
     <%= user_attributes.text_field :username %>
   <% end %>
-  <%= f.submit "Create Comment" %>
+  <%= f.submit 'Create Comment' %>
 <% end %>
