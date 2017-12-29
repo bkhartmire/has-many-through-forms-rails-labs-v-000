@@ -9,5 +9,5 @@
   <%= f.fields_for :categories, @post.categories.build do |category_fields| %>
     <%= category_fields.text_field :name %>
   <% end %>
-  <%= f.submit "Create Post" %>
+  <%= f.submit %>
 <% end %>
